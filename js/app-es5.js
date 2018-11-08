@@ -42,6 +42,7 @@ UI.prototype.deleteBook = function(target) {
   }
 }
 
+// Show Alert function
 UI.prototype.showAlert = function(msg, className) {
   const div = document.createElement('div');
   div.className = `alert ${className}`;
